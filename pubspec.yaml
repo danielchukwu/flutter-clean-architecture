@@ -42,7 +42,7 @@ dependencies:
   intl: ^0.18.1
   floor: ^1.4.2
   retrofit: ^4.0.1
-  flutter_hooks: ^0.20.1
+  # flutter_hooks: ^0.20.1
   cached_network_image: ^3.2.3
 
 dev_dependencies:
