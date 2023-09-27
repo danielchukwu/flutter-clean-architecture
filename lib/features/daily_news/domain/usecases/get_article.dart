@@ -10,11 +10,7 @@ class GetArticlesUseCase implements UseCase<DataState<List<ArticleEntity>>, void
   
   @override
   Future<DataState<List<ArticleEntity>>> call({void param}) async {
-    // print('Start');
     DataState<List<ArticleEntity>> data = await _articleRepository.getNewsArticles();
-    // print('End');
-    // print(data.data!.first.title);
-    // print(data.error);
     return data;
   }
 
